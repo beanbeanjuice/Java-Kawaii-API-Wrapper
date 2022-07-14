@@ -1,3 +1,6 @@
+[![wakatime](https://wakatime.com/badge/github/beanbeanjuice/Java-Kawaii-API-Wrapper.svg?style=for-the-badge)](https://wakatime.com/badge/github/beanbeanjuice/Java-Kawaii-API-Wrapper)
+[![CodeFactor](https://www.codefactor.io/repository/github/beanbeanjuice/java-kawaii-api-wrapper/badge?style=for-the-badge)](https://www.codefactor.io/repository/github/beanbeanjuice/java-kawaii-api-wrapper)
+
 # Java Kawaii API Wrapper
 
 This is an API wrapper for the [Kawaii API](https://docs.kawaii.red/). It should make it a lot easier to get random images and such.
