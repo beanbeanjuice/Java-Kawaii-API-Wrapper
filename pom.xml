@@ -21,14 +21,6 @@
         </license>
     </licenses>
 
-    <distributionManagement>
-        <repository>
-            <id>github</id>
-            <name>GitHub Packages</name>
-            <url>https://maven.pkg.github.com/beanbeanjuice/Java-Kawaii-API-Wrapper</url>
-        </repository>
-    </distributionManagement>
-
     <developers>
         <developer>
             <name>beanbeanjuice</name>
@@ -113,5 +105,13 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/beanbeanjuice/Java-Kawaii-API-Wrapper</url>
+        </repository>
+    </distributionManagement>
 
 </project>
