@@ -6,7 +6,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.github.beanbeanjuice</groupId>
     <artifactId>kawaii-api-wrapper</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <packaging>jar</packaging>
 
     <name>kawaii-api-wrapper</name>
@@ -63,14 +63,6 @@
             <version>2.13.3</version>
         </dependency>
 
-        <!-- Logback for Logging -->
-        <dependency>
-            <groupId>ch.qos.logback</groupId>
-            <artifactId>logback-classic</artifactId>
-            <version>1.2.11</version>
-            <scope>runtime</scope>
-        </dependency>
-
         <!-- HTTPComponents for REQUESTS to the API -->
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
@@ -79,11 +71,6 @@
         </dependency>
 
         <!-- DOTENV for Environment Variable Support -->
-        <dependency>
-            <groupId>io.github.cdimascio</groupId>
-            <artifactId>dotenv-java</artifactId>
-            <version>2.2.4</version>
-        </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
