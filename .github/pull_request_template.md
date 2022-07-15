@@ -19,13 +19,6 @@ Fixes # (issue)
 - [ ] Documentation
 - [ ] Other: _____
 
-**Test Configuration**:
-* Hardware:
-    - CPU: 
-    - GPU: 
-    - RAM: 
-* SDK: Java Oracle 16
-
 # Checklist:
 
 - [ ] This pull request has been linked to the appropriate issue on GitHub. (Use the development section on the right.)
@@ -39,4 +32,5 @@ Fixes # (issue)
 - [ ] New and existing Maven CI tests have passed.
 - [ ] The pull request is properly merging into the correct branch.
 - [ ] All existing local code has been pushed to the GitHub repository.
-- [ ] Changes have been documented in the current draft [Kawaii API Wrapper Release](https://github.com/beanbeanjuice/Java-Kawaii-API-Wrapper/releases) update.
+- [ ] Changes have been documented in the current draft [Java Kawaii API Wrapper Release](https://github.com/beanbeanjuice/Java-Kawaii-API-Wrapper/releases) update.
+- [ ] The version has been successfully incremented.
