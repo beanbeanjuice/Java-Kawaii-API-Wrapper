@@ -1,6 +1,6 @@
-package io.github.beanbeanjuice;
+package com.beanbeanjuice;
 
-import io.github.beanbeanjuice.endpoint.GifEndpoint;
+import com.beanbeanjuice.endpoint.GifEndpoint;
 import org.jetbrains.annotations.NotNull;
 
 /**

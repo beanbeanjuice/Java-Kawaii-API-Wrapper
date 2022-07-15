@@ -1,9 +1,9 @@
-package io.github.beanbeanjuice.endpoint;
+package com.beanbeanjuice.endpoint;
 
-import io.github.beanbeanjuice.api.API;
-import io.github.beanbeanjuice.requests.Request;
-import io.github.beanbeanjuice.requests.RequestBuilder;
-import io.github.beanbeanjuice.requests.RequestRoute;
+import com.beanbeanjuice.api.API;
+import com.beanbeanjuice.requests.Request;
+import com.beanbeanjuice.requests.RequestBuilder;
+import com.beanbeanjuice.requests.RequestRoute;
 import org.jetbrains.annotations.NotNull;
 
 /**

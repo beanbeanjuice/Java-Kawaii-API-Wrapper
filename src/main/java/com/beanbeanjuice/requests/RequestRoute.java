@@ -1,4 +1,4 @@
-package io.github.beanbeanjuice.requests;
+package com.beanbeanjuice.requests;
 
 import org.jetbrains.annotations.NotNull;
 
