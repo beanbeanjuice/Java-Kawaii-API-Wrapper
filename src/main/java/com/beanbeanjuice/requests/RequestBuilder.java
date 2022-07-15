@@ -1,4 +1,4 @@
-package io.github.beanbeanjuice.requests;
+package com.beanbeanjuice.requests;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.http.HttpEntity;

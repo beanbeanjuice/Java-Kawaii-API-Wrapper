@@ -1,4 +1,4 @@
-package io.github.beanbeanjuice.api;
+package com.beanbeanjuice.api;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import org.jetbrains.annotations.NotNull;

@@ -1,4 +1,4 @@
-package io.github.beanbeanjuice;
+package com.beanbeanjuice;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
