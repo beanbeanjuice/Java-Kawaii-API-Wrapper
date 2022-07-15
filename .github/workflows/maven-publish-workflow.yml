@@ -10,6 +10,7 @@ on:
     - master
 
 # https://stackoverflow.com/questions/61096521/how-to-use-gpg-key-in-github-actions
+# https://github.com/actions/setup-java/issues/83
 jobs:
   publish:
     runs-on: ubuntu-latest
@@ -17,6 +18,7 @@ jobs:
       - uses: actions/checkout@v3
       - name: Fix GPG
         run: export GPG_TTY=$(tty)
+        run: gpg --batch --keyserver
       - name: Set up Maven Central Repository
         uses: actions/setup-java@v3
         with:
