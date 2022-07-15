@@ -11,6 +11,8 @@ on:
 
 # https://stackoverflow.com/questions/61096521/how-to-use-gpg-key-in-github-actions
 # https://github.com/actions/setup-java/issues/83
+# FIX - https://stackoverflow.com/questions/53992950/maven-gpg-plugin-failing-with-inappropriate-ioctl-for-device-when-running-unde
+# https://keys.openpgp.org
 jobs:
   publish:
     runs-on: ubuntu-latest
