@@ -1,37 +1,112 @@
 [![wakatime](https://wakatime.com/badge/github/beanbeanjuice/Java-Kawaii-API-Wrapper.svg?style=for-the-badge)](https://wakatime.com/badge/github/beanbeanjuice/Java-Kawaii-API-Wrapper)
 [![CodeFactor](https://www.codefactor.io/repository/github/beanbeanjuice/java-kawaii-api-wrapper/badge?style=for-the-badge)](https://www.codefactor.io/repository/github/beanbeanjuice/java-kawaii-api-wrapper)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/beanbeanjuice/Java-Kawaii-API-Wrapper?style=for-the-badge)
 
-# Java Kawaii API Wrapper
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/beanbeanjuice/cafeBot">
+    <img src="https://cdn.beanbeanjuice.com/images/cafeBot/readme/logo.gif" alt="Logo" width="260" height="186">
+  </a>
 
-This is an API wrapper for the [Kawaii API](https://docs.kawaii.red/). It should make it a lot easier to get random images and such.
+  <h1 align="center">Kawaii API Wrapper</h1>
+
+  <p align="center">
+    A wrapper for the Kawaii API!
+    <br />
+    <a href="https://docs.kawaii.red/"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+  </p>
+</p>
+
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgements">Acknowledgements</a></li>
+  </ol>
+</details>
+
+<!-- ABOUT THE PROJECT -->
+# About The Project
+
+### Built With
+
+* [Maven](https://maven.apache.org/)
+
+<!-- GETTING STARTED -->
+# Getting Started
+
+To add this bot to your server, follow these steps.
 
 ## Installation
 
-Add this to your maven `~/.m2/settings.xml` file.
+Make sure you replace VERSION with the appropriate version.
 
+For `Maven`, paste this into your `dependencies` section of your `pom.xml` file.
 ```XML
-<servers>
-  ...
-  <server>
-    <id>github</id>
-    <username>USERNAME</username>
-    <password>TOKEN</password>
-  </server>
-  ...
-</servers>
+<!-- Kawaii API Wrapper -->
+<dependency>
+  <groupId>com.beanbeanjuice</groupId>
+  <artifactId>kawaii-api-wrapper</artifactId>
+  <version>VERSION</version>
+</dependency>
 ```
 
-Next, add this to your repositories
-
-```XML
-<repositories>
-  ...
-  <repository>
-      <id>github</id>
-      <url>https://maven.pkg.github.com/beanbeanjuice/Java-Kawaii-API-Wrapper</url>
-  </repository>
-  ...
-</repositories>
+For `Gradle`, paste this into your `dependencies` section of your `build.gradle` file.
+```Groovy
+// Kawaii API Wrapper
+implementation group: 'com.beanbeanjuice', name: 'kawaii-api-wrapper', version: 'VERSION'
 ```
 
-Then click on the "packages" icon and install from there!
+<!-- ROADMAP -->
+# Roadmap
+
+See the [open issues](https://github.com/beanbeanjuice/cafeBot/issues) for a list of proposed features (and known issues).
+
+<!-- CONTRIBUTING -->
+# Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<!-- LICENSE -->
+# License
+
+Distributed under the GPL-3.0 License. See `LICENSE` for more information.
+
+<!-- CONTACT -->
+# Contact
+
+- beanbeanjuice
+- Twitter [@beanbeanjuice](https://twitter.com/beanbeanjuice)
+- Email - beanbeanjuice@outlook.com
+- Project Link: [GitHub](https://github.com/beanbeanjuice/cafeBot)
+
+<!-- ACKNOWLEDGEMENTS -->
+# Acknowledgements
+
+* *There's nothing here yet... maybe in the future?*
