@@ -102,6 +102,7 @@
                     </execution>
                 </executions>
             </plugin>
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-javadoc-plugin</artifactId>
@@ -115,18 +116,6 @@
                     </execution>
                 </executions>
             </plugin>
-
-<!--            <plugin>-->
-<!--                <groupId>org.apache.maven.plugins</groupId>-->
-<!--                <artifactId>maven-release-plugin</artifactId>-->
-<!--                <version>2.5.3</version>-->
-<!--                <configuration>-->
-<!--                    <autoVersionSubmodules>true</autoVersionSubmodules>-->
-<!--                    <useReleaseProfile>false</useReleaseProfile>-->
-<!--                    <releaseProfiles>release</releaseProfiles>-->
-<!--                    <goals>deploy</goals>-->
-<!--                </configuration>-->
-<!--            </plugin>-->
 
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -152,23 +141,6 @@
     </build>
 
     <dependencies>
-        <!-- Maven Release Plugin -->
-<!--        <dependency>-->
-<!--            <groupId>org.apache.maven.plugins</groupId>-->
-<!--            <artifactId>maven-release-plugin</artifactId>-->
-<!--            <version>2.5.3</version>-->
-<!--            <exclusions>-->
-<!--                <exclusion>-->
-<!--                    <groupId>org.slf4j</groupId>-->
-<!--                    <artifactId>slf4j-jdk14</artifactId>-->
-<!--                </exclusion>-->
-<!--                <exclusion>-->
-<!--                    <groupId>org.slf4j</groupId>-->
-<!--                    <artifactId>slf4j-api</artifactId>-->
-<!--                </exclusion>-->
-<!--            </exclusions>-->
-<!--        </dependency>-->
-
         <!-- GPG Plugin -->
         <dependency>
             <groupId>org.apache.maven.plugins</groupId>
@@ -182,16 +154,6 @@
             <groupId>org.sonatype.plugins</groupId>
             <artifactId>nexus-staging-maven-plugin</artifactId>
             <version>1.6.13</version>
-<!--            <exclusions>-->
-<!--                <exclusion>-->
-<!--                    <groupId>ch.qos.logback</groupId>-->
-<!--                    <artifactId>logback-classic</artifactId>-->
-<!--                </exclusion>-->
-<!--&lt;!&ndash;                <exclusion>&ndash;&gt;-->
-<!--&lt;!&ndash;                    <groupId>ch.qos.logback</groupId>&ndash;&gt;-->
-<!--&lt;!&ndash;                    <artifactId>logback-core</artifactId>&ndash;&gt;-->
-<!--&lt;!&ndash;                </exclusion>&ndash;&gt;-->
-<!--            </exclusions>-->
         </dependency>
 
         <!-- Jetbrains Annotations -->
