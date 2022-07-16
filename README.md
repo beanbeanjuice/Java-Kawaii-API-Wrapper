@@ -1,6 +1,6 @@
 [![wakatime](https://wakatime.com/badge/github/beanbeanjuice/Java-Kawaii-API-Wrapper.svg?style=for-the-badge)](https://wakatime.com/badge/github/beanbeanjuice/Java-Kawaii-API-Wrapper)
 [![CodeFactor](https://www.codefactor.io/repository/github/beanbeanjuice/java-kawaii-api-wrapper/badge?style=for-the-badge)](https://www.codefactor.io/repository/github/beanbeanjuice/java-kawaii-api-wrapper)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/beanbeanjuice/Java-Kawaii-API-Wrapper?style=for-the-badge)
+![Maven Central](https://img.shields.io/maven-central/v/com.beanbeanjuice/kawaii-api-wrapper?color=%23CBC3E3&style=for-the-badge)
 
 <!-- PROJECT LOGO -->
 <br />
@@ -55,11 +55,27 @@
 <!-- GETTING STARTED -->
 # Getting Started
 
-To add this bot to your server, follow these steps.
+## Usage
+
+*For Anonymous Requests...*
+```Java
+KawaiiAPI kawaiiAPI = new KawaiiAPI();
+kawaiiAPI.GIF.getGIF("hug");
+```
+
+*For Normal Requests...*
+```Java
+KawaiiAPI kawaiiAPI = new KawaiiAPI(TOKEN_HERE);
+kawaiiAPI.GIF.getGIF("hug");
+```
+
+Currently, the supported "prompts" are located [here](https://docs.kawaii.red/endpoints/gif). I have no control over the actual endpoint list.
 
 ## Installation
 
-Make sure you replace VERSION with the appropriate version.
+![Maven Central](https://img.shields.io/maven-central/v/com.beanbeanjuice/kawaii-api-wrapper?color=%23CBC3E3)
+
+Make sure you replace VERSION with the appropriate version specified above.
 
 For `Maven`, paste this into your `dependencies` section of your `pom.xml` file.
 ```XML
